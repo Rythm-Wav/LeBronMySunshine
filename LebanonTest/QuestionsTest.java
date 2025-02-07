@@ -13,5 +13,8 @@ class QuestionsTest {
 
     @org.junit.jupiter.api.Test
     void printQuestion() {
+        Questions test2 = new Questions("What ethnicity is LeBron", "A)African American","B)Puerto Rican", "C) Caucasian", "D)African","A");
+        assertTrue(test2.getQuestion().matches("[A-Z][a-zA-Z]+\\s[a-zA-Z]+\\s[a-zA-Z]+\\s[a-zA-Z]+(?)"));
+
     }
 }

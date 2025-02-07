@@ -30,4 +30,7 @@ public class Questions {
         System.out.println(answerC);
         System.out.println(answerD);
     }
+    public String getQuestion (){
+        return this.question;
+    }
 }
