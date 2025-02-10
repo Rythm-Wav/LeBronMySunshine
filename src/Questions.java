@@ -29,8 +29,27 @@ public class Questions {
         System.out.println(answerB);
         System.out.println(answerC);
         System.out.println(answerD);
+
+
     }
-    public String getQuestion (){
+    public String getQuestion(){
         return this.question;
     }
+    public String getAnswerA (){
+        return this.answerA;
+    }
+    public String getAnswerB (){
+        return this.answerB;
+    }
+    public String getAnswerC (){
+        return this.answerC;
+    }
+    public String getAnswerD (){
+        return this.answerD;
+    }
+    public String getCorrect (){
+        return this.correct;
+    }
+
 }
+

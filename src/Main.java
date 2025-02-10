@@ -66,17 +66,31 @@ public class Main {
         System.out.println("THREEEE You're right!");
 
         do {
-            Questions Q5 = new Questions("What position did LeBron play in his sophomore year of high school?",
-                    "A) Linebacker", "B) Wide Receiver", "C) Center", "D) Fullback", "B");
+            Questions Q5 = new Questions("What two sports did Bo Jackson become an All-Star in?",
+                    "A) Football & Baseball", "B) Football & Basketball", "C) Baseball & Boxing", "D) Basketball & Cricket", "A");
             Q5.printQuestion();
             Reply = key.nextLine();
 
-            if (!Reply.equals("B")){
+            if (!Reply.equals("A")){
                 System.out.println("AIRBALL, try again.");
             }
 
         }
-        while (!Reply.equals("B"));
+        while (!Reply.equals("A"));
+
+        System.out.println("THREEEE You're right!");
+
+        do {
+            Questions Q6 = new Questions("What is Lebron James's birthday?","07/18/1984","08/23/2001","11/11/1111","12/30/1984","C");
+            Q6.printQuestion();
+            Reply = key.nextLine();
+
+            if (!Reply.equals("D")){
+                System.out.println("AIRBALL, try again.");
+            }
+
+        }
+        while (!Reply.equals("D"));
 
         System.out.println("THREEEE You're right!");
 
